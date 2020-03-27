@@ -1,6 +1,11 @@
 body {
     background-image: url(https://i.pinimg.com/originals/72/77/a9/7277a97980f189d2e8f145d2edfd472a.jpg);
-    background-size: cover;
+    background-size: 100%;
+    
+}
+
+header {
+    padding-bottom: 3%;
 }
 
 #name {
@@ -9,11 +14,14 @@ body {
     font-family: 'Cinzel', serif;
 }
 
-
 img {
+    display: block;
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    
   }
 
  button {
@@ -35,8 +43,35 @@ img {
     text-align: center;
   }
 
+  h2{
+      text-align: center;
+      color: white;
+      font-size: 50px
+  }
+
   #copyright {
     font-size: 15px;
     color: #ff6666;
     font-family: 'Cinzel', serif;
   }
+
+  
+
+@media (min-width: 576px) {
+  
+}
+
+
+@media (min-width: 768px) { 
+  
+ }
+
+
+@media (min-width: 992px) { 
+  
+ }
+
+
+@media (min-width: 1200px) { 
+  
+ }
