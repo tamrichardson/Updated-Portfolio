@@ -1,3 +1,10 @@
-h1 {
-    color:maroon;
+body {
+    background-image: url(https://i.pinimg.com/originals/72/77/a9/7277a97980f189d2e8f145d2edfd472a.jpg);
+    background-size: cover;
 }
+
+img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+  }
