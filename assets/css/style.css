@@ -3,6 +3,12 @@ body {
     background-size: cover;
 }
 
+h1 {
+    font-size: 100px;
+    color: #ff6666;
+    font-family: 'Cinzel', serif;
+}
+
 img {
     border-radius: 50%;
     width: 300px;
@@ -16,6 +22,11 @@ img {
     background-color: #ff3333;
   }
 
+  li {
+      float: right;
+  }
+
   a {
       color:white;
+      font-family: 'Cinzel', serif;
   }
