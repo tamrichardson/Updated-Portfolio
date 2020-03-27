@@ -10,14 +10,6 @@ body {
 }
 
 
-button {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    background-color: #ff3333;
-  
-  }
-
 img {
     border-radius: 50%;
     width: 300px;
@@ -29,7 +21,7 @@ img {
     width: 120px;
     height: 120px;
     background-color: #ff3333;
-  
+    font-family: 'Cinzel', serif;
   }
 
 
@@ -41,4 +33,10 @@ img {
       color:white;
       font-family: 'Cinzel', serif;
     text-align: center;
+  }
+
+  #copyright {
+    font-size: 15px;
+    color: #ff6666;
+    font-family: 'Cinzel', serif;
   }
