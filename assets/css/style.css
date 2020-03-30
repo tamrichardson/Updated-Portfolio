@@ -69,6 +69,19 @@ header {
   color: black;
   }
 
+  /*****CONTACT*****/
+  form {
+    width: 800px;
+    margin: auto;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: center;
+    color: black;
+    }
+
+     /*****PORTFOLIO*****/
   h5{
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
