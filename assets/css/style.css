@@ -83,13 +83,18 @@ input{
 .bio {
   width: 800px;
   margin: auto;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 25px;
-  display: block;
-  line-height: 25px;
-  text-align: center;
-  color: black;
+  
   }
+
+  .b{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    display: block;
+    line-height: 25px;
+    text-align: center;
+    color: white;
+  }
+  
 
   /*****CONTACT*****/
   form {
@@ -107,16 +112,18 @@ input{
   h5{
     font-family: 'Quicksand', sans-serif;
     font-size: 30px;
+    color: white;
   }
 
 p {
   font-family: 'Quicksand', sans-serif;
     font-size: 18px;
-  color: black;
+  color: white;
 }
 
 .card {
-  background-color: #ff6666; ;
+  background-color: rgba(255, 0, 0, 0.3); 
+ 
   }
 
 @media (max-width: 576px) {
