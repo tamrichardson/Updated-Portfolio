@@ -28,19 +28,22 @@
     <div>
         <header>
 
-            <!-- As a heading -->
             <nav class="navbar navbar-light">
                 <span class="navbar-brand mb-0 h1" id="name">Tammy Richardson</span>
 
                 <ul class="nav justify-content-end">
-                    <li class="nav-item"><button><a class="nav-link" href="index.html" class="about">Home</a></button>
+                    <li class="nav-item">
+                        <div class="no-btn"><a class="nav-link" href="index.html" class="about">Home</a></div>
                     </li>
-                    <li class="nav-item"><button><a class="nav-link" href="about.html" class="about">about</a></button>
+                    <li class="nav-item">
+                        <div class="no-btn"><a class="nav-link" href="about.html" class="about">about</a></div>
                     </li>
-                    <li class="nav-item"><button><a class="nav-link" href="contact.html"
-                                class="contact">Contact</a></button></li>
-                    <li class="nav-item"><button><a class="nav-link" href="portfolio.html"
-                                class="portfolio">Portfolio</a></button>
+                    <li class="nav-item">
+                        <div class="no-btn"><a class="nav-link" href="contact.html" class="contact">Contact</a></div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="no-btn"><a class="nav-link" href="portfolio.html" class="portfolio">Portfolio</a>
+                        </div>
                     </li>
                 </ul>
             </nav>
@@ -49,26 +52,29 @@
     <div class="container-sm">
         <form>
             <div class="form-group">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="exampleInputName1">
+                </div>
                 <label for="exampleInputEmail1">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-
             </div>
-            <div class="form-group">
-                <label for="exampleInputPassword1">Password</label>
-                <input type="password" class="form-control" id="exampleInputPassword1">
-            </div>
+            <label for="name">Message</label>
+            <input type="text" class="form-control" id="name" aria-describedby="nameHelp">
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 
     <footer class="fixed-bottom">
         <ul class="nav justify-content-center">
-            <li><button class="nav-item">
-                    <a class="nav-link active" href="https://github.com/tamrichardson">Github</a></button>
+            <li>
+                <div class="no-btn" class="nav-item">
+                    <a class="nav-link active" href="https://github.com/tamrichardson">Github</a></div>
             </li>
-            <li><button class="nav-item">
+            <li>
+                <div class="no-btn" class="nav-item">
                     <a class="nav-link active"
-                        href="https://www.linkedin.com/in/tammy-richardson-78705819a/">LinkedIn</a></button>
+                        href="https://www.linkedin.com/in/tammy-richardson-78705819a/">LinkedIn</a></div>
             </li>
         </ul>
         <div class="container2" id="copyright">
