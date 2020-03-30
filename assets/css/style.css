@@ -24,10 +24,7 @@ header {
     height: 400px;
     margin-right: auto;
     margin-left: auto;
-    
-  }
-
-
+    }
 
  button {
     border-radius: 50%;
@@ -70,13 +67,22 @@ header {
   line-height: 25px;
   text-align: center;
   color: black;
-  
- 
-}
+  }
+
+  h5{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+  }
 
 p {
+  font-family: 'Quicksand', sans-serif;
+    font-size: 18px;
   color: black;
 }
+
+.card {
+  background-color: #ff6666; ;
+  }
 
 @media (min-width: 576px) {
   
