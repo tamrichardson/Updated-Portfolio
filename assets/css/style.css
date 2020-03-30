@@ -1,8 +1,6 @@
 body {
     background: url(https://i.pinimg.com/originals/72/77/a9/7277a97980f189d2e8f145d2edfd472a.jpg)no-repeat center center fixed;
     object-fit: cover;
-  
-  
 }
 
 header {
@@ -79,7 +77,7 @@ textarea {
   footer {
     position: absolute;
     bottom: 0;
-    margin-left: 40%;
+    margin-left: 42%;
   }
 
 /*****ABOUT*****/
@@ -108,7 +106,7 @@ textarea {
     display: block;
     line-height: 25px;
     text-align: center;
-    color: black;
+    color:white;
     }
 
      /*****PORTFOLIO*****/
@@ -148,7 +146,8 @@ p {
 
 @media (min-width: 992px) { 
   body {background-size: 100%
-    }
+    
+    
  }
 
 
