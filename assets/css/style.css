@@ -74,6 +74,10 @@ header {
  
 }
 
+p {
+  color: black;
+}
+
 @media (min-width: 576px) {
   
 }
