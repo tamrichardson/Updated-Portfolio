@@ -11,7 +11,7 @@ header {
 
 #name {
     font-size: 75px;
-    color: #ff6666;
+    color: black;
     font-family: 'Cinzel', serif;
 }
 
@@ -22,6 +22,10 @@ header {
 input{
   opacity: 0.7 !important;
 }
+textarea {
+  opacity: 0.7 !important;
+}
+
 .logo {
     display: block;
     border-radius: 50%;
@@ -33,11 +37,10 @@ input{
 
  button {
     border-radius: 50%;
-    width: 120px;
-    height: 120px;
+    
     background-color: #ff3333;
     font-family: 'Cinzel', serif;
-    
+    color: white;
   }
 
   .no-btn{
@@ -69,14 +72,14 @@ input{
 
   #copyright {
     font-size: 15px;
-    color: #ff6666;
+    color:black;
     font-family: 'Cinzel', serif;
   }
 
   footer {
     position: absolute;
     bottom: 0;
-    margin-left: 35%;
+    margin-left: 40%;
   }
 
 /*****ABOUT*****/
