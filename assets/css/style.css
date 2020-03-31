@@ -124,6 +124,12 @@ textarea {
     color: white;
   }
 
+  #projects {
+      color:white;
+      font-family: 'Cinzel', serif;
+    text-align: center;
+  }
+
 p {
   font-family: 'Quicksand', sans-serif;
     font-size: 18px;
@@ -185,7 +191,24 @@ p {
       bottom: 0;
       margin-left: 23%;
     }
-}
+  
+    
+   .card-deck {
+     width: 100%;
+   }
+
+   h5{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+    color: white;
+  }
+  p {
+    font-family: 'Quicksand', sans-serif;
+      font-size: 18px;
+    color: white;
+  }
+
+  }
 
 
 @media (min-width: 768px) { 
@@ -193,6 +216,7 @@ p {
     width: 90px;
     height: 90px;
     }
+
     .logo{
       width: 300px;
       height: 300px;
