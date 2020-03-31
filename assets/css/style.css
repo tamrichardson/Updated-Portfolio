@@ -137,8 +137,10 @@ p {
 
 @media (max-width: 576px) {
   .no-btn{
-    width: 75px;
-    height: 75px;
+    width: 65px;
+    height: 65px;
+    padding-top: 20px;
+    
     }
     .logo{
       width: 200px;
@@ -148,11 +150,11 @@ p {
       font-size: 35px;
     }
     h2{
-      font-size: 25px;
+      font-size: 20px;
     }
 
     #link {
-      font-size: 10px;
+      font-size: 8px;
     }
 
     .bioInfo {
@@ -174,8 +176,14 @@ p {
     }
 
     form {
-      width: 375px;
-      height: 375px;
+      width: 350px;
+      height: 350px;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 0;
+      margin-left: 23%;
     }
 }
 
