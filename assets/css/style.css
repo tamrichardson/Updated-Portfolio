@@ -162,9 +162,15 @@ p {
     line-height: 15px;
     }
 
-    .container-sm {
-      width: 80%;
-      height: 200%;
+    .bio {
+      width: 375px;
+      height: 375px;
+    }
+
+    #copyright {
+      font-size: 10px;
+      text-align: center;
+
     }
 }
 
