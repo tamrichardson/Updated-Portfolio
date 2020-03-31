@@ -172,6 +172,11 @@ p {
       text-align: center;
 
     }
+
+    form {
+      width: 375px;
+      height: 375px;
+    }
 }
 
 
