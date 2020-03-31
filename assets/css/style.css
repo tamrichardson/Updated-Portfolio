@@ -48,7 +48,7 @@ textarea {
     background-color: #ff3333;
     font-family: 'Cinzel', serif;
     vertical-align: middle;
-    padding-top: 40px;
+    padding-top: 30px;
   }
 
 
@@ -56,10 +56,18 @@ textarea {
       float: right;
   }
 
-  a {
+ #projects {
       color:white;
       font-family: 'Cinzel', serif;
     text-align: center;
+  }
+
+  #link {
+    color:white;
+    font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 13px;
+
   }
 
   h2{
@@ -87,7 +95,7 @@ textarea {
   
   }
 
-  .b{
+  .bioInfo{
     font-family: 'Quicksand', sans-serif;
     font-size: 25px;
     display: block;
@@ -129,30 +137,62 @@ p {
 
 @media (max-width: 576px) {
   .no-btn{
-    width: 90px;
-    height: 90px;
+    width: 75px;
+    height: 75px;
     }
     .logo{
       width: 200px;
       height: 200px;
     }
+    #name {
+      font-size: 35px;
+    }
+    h2{
+      font-size: 25px;
+    }
+
+    #link {
+      font-size: 10px;
+    }
+
+    .bioInfo {
+      font-size: 15px;
+      display: block;
+      text-align: wrap;
+    line-height: 15px;
+    }
+
+    .container-sm {
+      width: 80%;
+      height: 200%;
+    }
 }
 
 
 @media (min-width: 768px) { 
- 
+  .no-btn{
+    width: 90px;
+    height: 90px;
+    }
+    .logo{
+      width: 300px;
+      height: 300px;
+    }
+    #name {
+      font-size: 45px;
+    }
  }
 
 
 @media (min-width: 992px) { 
   body {background-size: 100%
     
-    
  }
+}
 
 
 @media (min-width: 1200px) { 
 
     body {background-size: 100%
     }
- }
+  }
